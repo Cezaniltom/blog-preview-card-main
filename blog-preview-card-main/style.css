@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: figtree;
+}
+
+:root {
+    --yellow: #f4d04e;
+    --white: #ffffff;
+    --Gray-500: #6b6b6b;
+    --Gray-950: #121212;
+}
+
+body {
+    background-color: var(--yellow);
+}
+
+.primary {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary {
+    background-color: var(--white);
+    border: 1px solid var(--Gray-950);
+    width: 375px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 7px 10px 0px 3px rgba(0,0,0,1);
+}
+
+.img-top {
+    border-radius: 20px;
+    width: 340px;
+    padding-right: 10px;
+}
+
+.button-learning {
+    font-size: 16px;
+    font-weight: 800;
+    width: 80px;
+    height: 30px;
+    background-color: #f4d04e;
+    border: none;
+}
+
+.published {
+    font-weight: 500;
+}
+
+.title-active {
+    font-weight: 800;
+}
+
+.title-active:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.information {
+    font-family: Figtree;
+    color: var(--Gray-500);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-person {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.name {
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+}
